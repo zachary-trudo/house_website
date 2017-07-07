@@ -16,6 +16,7 @@ I'd like for it to have the following capabilities:
 ## Technologies used
 
 - Flask for web server
+- tablib for csv --> html (may be removed later)
 - Slack for notifications
 - Transmission for torrent download
 - HTML5 or VLC for video playing

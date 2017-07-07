@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+{% block head %}
+  {{ super() }}
+  {{ username }} your torrent {{ filename }} is downloading 
+  {% if download_success %} successfully
+  {% else %} unsuccessfully {% endif %}
+{% endblock %}
